@@ -41,6 +41,16 @@
 
 ## 프로젝트 구현 내용
 
+<img width="765" alt="스크린샷 2023-08-20 오후 11 49 19" src="https://github.com/Taehwan2/SW_HACK43/assets/97010824/15660b52-70cf-40f4-8bf0-7805630f9357">
+
+1. 사용자가 난이도랑 원하는 KM를 입력하면 그 정보를 JSON을 통해서 받고, 사용자의 현재 위치를 받아와서 저장한다. 
+
+<img width="556" alt="스크린샷 2023-08-20 오후 11 50 12" src="https://github.com/Taehwan2/SW_HACK43/assets/97010824/cac11161-db8d-4eaf-ae80-378467876c38">
+
+2. TMAP API를 사용하여 주변 KM의 목적지에 있는 장소를 불러오고, GOOGLE MAP API를 사용하여 목적지 까지 가는 경도와 위도를 계산하여 오르막길이나 내리막길을 판단해 난이도를 설정해 준다.
+   
+<img width="974" alt="스크린샷 2023-08-20 오후 11 50 30" src="https://github.com/Taehwan2/SW_HACK43/assets/97010824/1ead720a-9bd1-4150-9d94-f5fa40a1e400">
+
 ## 프로젝트 한계 및 개선 방안
 
 
